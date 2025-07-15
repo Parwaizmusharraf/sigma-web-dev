@@ -1,0 +1,21 @@
+:root{
+    --fcolor: lightgray;
+    --scolor: cyan;
+    --tcolor: blue;
+    --focolor: red;
+}
+.navbar{
+    background-color: var(--fcolor);
+    color: var(--focolor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.navbar li{
+    background-color: var(--scolor);
+    display: inline;
+    padding: 20px;
+    margin: 7px;
+
+}
