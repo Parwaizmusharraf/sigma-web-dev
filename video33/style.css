@@ -1,15 +1,17 @@
 :root{
-    --fcolor: lightgray;
-    --scolor: cyan;
-    --tcolor: blue;
-    --focolor: red;
+    --primercolor: rgb(121, 129, 235);
+    --secondrycolor: cyan;
+    --textcolor: blue;
+    --thirdcolor: red;
+    --color: rgb(255, 255, 255);
 }
 .navbar{
-    background-color: var(--fcolor);
-    color: var(--focolor);
+    background-color: var(--primercolor);
+    color: var(--color);
     display: flex;
     align-items: center;
     justify-content: center;
+    
     
 }
 .navbar li{
