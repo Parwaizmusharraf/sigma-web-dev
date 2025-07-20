@@ -13,7 +13,7 @@
             display: flex;
             align-items: center;
             justify-content: space-evenly;
-
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
         .nav ul {
@@ -23,6 +23,13 @@
 
         .nav ul li {
             display: flex;
+            cursor: pointer;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .nav ul li span {
+            padding: 0px 9px ;
 
         }
 
@@ -39,10 +46,10 @@
                 <img src="logo.png" alt="logo" width="100" height="50">
             </div>
             <ul>
-                <li>Products</li>
-                <li>Pricing</li>
-                <li>Resources</li>
-                <li>Our Company</li>
+                <li><span> Products</span> <i class="fa-solid fa-angle-down"></i></li>
+                <li><span>  Pricing </span>  <i class="fa-solid fa-angle-down"></i></li>
+                <li><span>  Resources </span>  <i class="fa-solid fa-angle-down"></i></li>
+                <li><span>  Our Company </span>  <i class="fa-solid fa-angle-down"></i></li>
             </ul>
             <i class="fa-solid fa-language"></i>
         </div>
